@@ -1,0 +1,107 @@
+.verificador-preco {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 430px;
+  height:700px ;
+}
+
+.conteudo-preco {
+  background-color: rgb(86, 86, 86);
+  padding: 30px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+  width: 400px;
+}
+
+.conteudo-preco p{
+  color: red;
+}
+.cabecalho-preco {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+.cabecalho-preco h1 {
+  font-size: 1.2em;
+  font-weight: normal;
+  color: wi;
+  margin: 0;
+}
+
+.cabecalho-preco nav button {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 0.9em;
+  padding: 5px;
+  transition: color 0.3s ease;
+}
+
+.cabecalho-preco nav button:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.secao-entrada {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.secao-entrada label {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.secao-entrada input {
+  width: 150px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #444;
+  background-color: #333;
+  color:white;
+}
+
+.botao-buscar {
+  background-color: #4b4b4b;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.botao-buscar:hover {
+  background-color: #090067;
+}
+
+
+.resultado {
+  background-color: #3c3c3c;
+  padding: 15px;
+  border-radius: 8px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.resultado h2 {
+  color: rgb(29, 229, 2);
+  margin-bottom: 10px;
+}
+
+.resultado p {
+  color: white;
+}

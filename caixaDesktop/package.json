@@ -1,0 +1,30 @@
+{
+  "name": "caixadesktop",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "npm run build-frontend && tauri build&&java -jar ./src-tauri/spring-app/poo-0.0.1-SNAPSHOT.jar",
+    "preview": "vite preview",
+    "tauri": "tauri",
+    "start-api": "java -jar ./src-tauri/spring-app/poo-0.0.1-SNAPSHOT.jar",
+    "build-frontend": "vite build",
+    "tauri-start": "concurrently \"npm run start-api\" \"npm run tauri dev\""
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^2",
+    "@tauri-apps/plugin-shell": "^2",
+    "axios": "^1.7.7",
+    "caixadesktop": "file:",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2",
+    "@vitejs/plugin-react": "^4.2.1",
+    "concurrently": "^8.0.1",
+    "vite": "^5.3.1",
+    "vite-plugin-tauri": "^3.3.0"
+  }
+}
