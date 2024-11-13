@@ -21,7 +21,7 @@ java -jar api.jar
 
 ```
 
-**Importante:** Certifique-se de que você tenha o **Java 17 ou superior** instalado no seu sistema.
+**Importante:** Certifique-se de que você tenha o arqivo api.jar na pasta e que tenha o **Java 17 ou superior** instalado no seu sistema.
 
 Após executar o comando, a aplicação Spring Boot será iniciada e deverá rodar na porta `8080`. **Verifique se a porta 8080 está disponível no seu sistema para evitar conflitos.**
 
