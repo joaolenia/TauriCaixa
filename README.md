@@ -57,3 +57,7 @@ Clique duas vezes no arquivo para iniciar o instalador. Em seguida, basta seguir
 
 Após a instalação, o aplicativo estará pronto para uso.
 
+
+### 5. Códig Fonte
+O código da aplicação se encontra na pasta `caixaDesktop`
+O cógigo fonte da aplicação Spring se encontra na pasta `poo`
